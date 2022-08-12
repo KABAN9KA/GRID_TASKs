@@ -18,14 +18,14 @@ $this->addExternalJS("/local/js/bootstrap.bundle.min.js");
             <input type="text" class="form-control" name="NAME" maxlength="255" value="">
 
             <label>Описание</label>
-            <textarea name="OPISANIE" class="form-control" placeholder="Заполните поле"></textarea>
+            <textarea name="DESCRIPTION" class="form-control" placeholder="Заполните поле"></textarea>
 
             <label>Крайний срок</label>
             <input type="text" name="SROK" class="form-control" maxlength="255" value="">
 
             <label>Статус(при добавлении задачи по умолчанию новая)</label>
             <select name='STATUS' class="form-control">
-                <option value="1">Новая</option>
+                <option value="25">Новая</option>
             </select>
             <br>
             <input type="submit" class="btn btn-success" value="Добавить">
